@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 1120555446}
   - component: {fileID: 1120555445}
   - component: {fileID: 1120555444}
-  - component: {fileID: 1120555443}
+  - component: {fileID: 1120555448}
   m_Layer: 0
   m_Name: PlayerShip2
   m_TagString: Untagged
@@ -446,18 +446,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1120555443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120555442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b294be65c533343c0918330964e89975, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1120555444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -547,6 +535,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1120555448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120555442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e9cfc00f690d4b57808a426596fcb1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1399695559
 GameObject:
   m_ObjectHideFlags: 0
