@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb1ac963b9b2b144a8348faf4ad81060
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318726
+  packageName: Captain Rocket Bird Demo
+  packageVersion: 1.0
+  assetPath: Assets/Captain Rocket Bird Demo/Hdrp/Material/HDRP Mat.mat
+  uploadId: 756663

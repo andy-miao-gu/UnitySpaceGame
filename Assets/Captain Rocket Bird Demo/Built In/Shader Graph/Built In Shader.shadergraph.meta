@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5dbd924586ba96142a20b5ac8ede8808
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318726
+  packageName: Captain Rocket Bird Demo
+  packageVersion: 1.0
+  assetPath: Assets/Captain Rocket Bird Demo/Built In/Shader Graph/Built In Shader.shadergraph
+  uploadId: 756663

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1f4c0e1aab3f8e042b53356ed8efe9a0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318726
+  packageName: Captain Rocket Bird Demo
+  packageVersion: 1.0
+  assetPath: Assets/Captain Rocket Bird Demo/Hdrp/Shader Graph/HDRP Shader Graph.shadergraph
+  uploadId: 756663
