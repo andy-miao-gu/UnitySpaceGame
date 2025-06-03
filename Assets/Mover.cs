@@ -8,6 +8,9 @@ public class Mover : MonoBehaviour
         Debug.Log("Hello Unity!");
         Debug.Log("Game Started");
     }
+    void OnCollisionEnter(Collision other) {
+    Debug.Log(name + " collided with " + other.gameObject.name);
+    }
 
     void FireLaser()
     {
