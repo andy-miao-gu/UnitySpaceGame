@@ -14,26 +14,27 @@ public class Mover : MonoBehaviour
 
     void FireLaser()
     {
-        Debug.Log("Pew Pew!");
+        GetComponent<AudioSource>().Play();
+        Debug.Log("Laser Fired!");
     }
 
 
     void move_forward(float speed)
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        GetComponent<Rigidbody>().AddForce(Vector3.forward * speed);
     }
     void move_backward(float speed)
     {
-        transform.Translate(Vector3.back * speed * Time.deltaTime);
+        GetComponent<Rigidbody>().AddForce(Vector3.back * speed);
     }
 
     void move_left(float speed)
     {
-        transform.Translate(Vector3.left * speed * Time.deltaTime);
+        GetComponent<Rigidbody>().AddForce(Vector3.left * speed);
     }
     void move_right(float speed)
     {
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        GetComponent<Rigidbody>().AddForce(Vector3.right * speed);
     }
 
     // Update is called once per frame
